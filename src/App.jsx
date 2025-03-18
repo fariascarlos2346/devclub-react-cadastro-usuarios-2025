@@ -1,9 +1,11 @@
 
 
 function App() {
+
+  const myText = 'Amor Amor'
   return (
       <div>
-      <h1>Carlos no React com Bia</h1>
+      <h1>{myText}</h1>
       </div>        
   )
 }
